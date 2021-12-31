@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 0;
+  max-width: 100% !important ;
+  margin: 0;
+}
+
+.mui-image-img {
+  max-width: 7rem;
+}
+
+.card-back {
+  height: 10rem;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem !important;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+
+.card-front {
+  background-color: #15202b;
+  width: 235px;
+  height: 160px;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem !important;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  -webkit-transform: rotate(30deg) ;
+  -moz-transform: rotate(30deg) ;
+  -ms-transform: rotate(30deg) ;
+  -o-transform: rotate(30deg) ;
+}
+
+.card-back {left: 0;
+  right: 0;
+  position: center;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
